@@ -25,6 +25,10 @@ public class Vehicle {
         System.out.println("move method called - The speed is changed to: " + currentSpeed + ", and the direction is changed to: " + currentDirection + " degrees");
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getCurrentSpeed() {
         return currentSpeed;
     }
